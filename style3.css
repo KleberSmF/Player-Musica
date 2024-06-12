@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+:root{
+    font-size: 62.5%;
+    background: #0f0d13;
+}
+#logo{
+    width: 200px;        
+    height: auto;       
+    position: absolute;  
+    top: 0;              
+    left: 0;           
+}
+.music{
+    width: 200px; 
+}
+.container{
+    background-color: #0f0d13;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controles{
+    margin: 10px 0px 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.controles button{
+    background-color: transparent;
+    border: none;
+}
+.hide{
+    display: none;
+}
+.card-player{
+    background: #2a2141;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.desc-musica{
+    margin: 20px 0px 15px 0px;
+}
+.desc-musica span{
+    color:rgb(211, 0, 0);
+}
+.conteudo-musica p {
+    font-size: 5.4rem;
+}
+
+.conteudo-musica span{
+    font-size: 2.8rem;
+}
+.container-progesso input{
+    width: 100%;
+}
+.tempo-musica {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
